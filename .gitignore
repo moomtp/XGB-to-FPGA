@@ -1,0 +1,7 @@
+__pycache__
+./tests/__pycache__
+./tests/__pycache__
+
+*.json
+*.vhd
+
