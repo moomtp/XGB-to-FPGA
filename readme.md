@@ -17,5 +17,6 @@
 
 
 # reference
-paper link : 
+### FPGA Accelerator for Gradient Boosting Decision Trees
+paper link : https://www.mdpi.com/2079-9292/10/3/314
 github link : 
