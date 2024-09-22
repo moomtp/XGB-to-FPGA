@@ -6,7 +6,7 @@
 1. 將訓練好的模型使用XGBoost官方提供的功能儲存為.json的決策樹結構，模型中決策樹的大小＇節點數量＇單子樹的深度都應該要確保不會超出硬體化中資料位元的儲存上限
 2. 打開任意python程式，import本工具，呼叫XGB_manager的建構子並將XGBoost模型的檔案路徑作為傳入參數建立物件
 3. 建立好的物件可以使用能夠set_gen_behavior與set_q_format更改節點在硬體中儲存各個資訊的佔用位元與Q-format的形式
-4. 使用__生成VHDL code，將生成的程式碼與另一個開源項目的資源結合，最後使用EDA tool就可以直接進行硬體的驗證與燒錄了
+4. 使用XGB_manager的gen()生成VHDL code，將生成的程式碼與另一個開源項目的資源結合，最後使用EDA tool就可以直接進行硬體的驗證與燒錄了
 
 
 # description
