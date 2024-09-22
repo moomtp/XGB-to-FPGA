@@ -11,13 +11,14 @@
 
 # description
 本專案在設計時考慮到Node class在原生與硬體化轉換的變動可能最為頻繁，因此使用了strategy design patten將硬體化規格的實作向外推至其他類別來實作
-## UML diagram
+### UML diagram
 ![](pic/UML_diagram.jpg)
-本專案主要參考另一個開源項目所定義好的多決策樹的硬體加速器電路IP，該專案規定了決策樹的格式，將一單node所帶的資訊限縮至32bit中，也因此本專案所產生的決策樹結構也需要固定儲存空間的大小至一個word中，但加入了可以更動佔用位元的功能
+
 ## node的硬體化規格
+本專案主要參考另一個開源項目所定義好的多決策樹的硬體加速器電路IP，該專案規定了決策樹的格式，將一單node所帶的資訊限縮至32bit中，也因此本專案所產生的決策樹結構也需要固定儲存空間的大小至一個word中，但加入了可以更動佔用位元的功能
 ![](pic/node_format.jpg)
 
 # reference
 ### FPGA Accelerator for Gradient Boosting Decision Trees
-paper link : https://www.mdpi.com/2079-9292/10/3/314  \n
+paper link : https://www.mdpi.com/2079-9292/10/3/314  <br>
 github link : https://github.com/universidad-zaragoza/FPGA_accelerator_for_GBDT
